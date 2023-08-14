@@ -14,8 +14,11 @@
 <h2>Pr_s</h2>
 都道府県別の議事録検索ｻｲﾄから任意のｷｰﾜｰﾄﾞで検索をかけた結果を取得するｽｸﾘﾌﾟﾄです。<br>
 以下のﾃﾞｰﾀを取得します。<br>
-・都道府県名<br>
-・検索ﾜｰﾄﾞ<br>
-・議会名<br>
-・発言順<br>
-・発言者<br>
+<table>
+  <tr><th>項目</th><th>ﾃﾞｰﾀ型</th></tr>
+  <tr><td>都道府県名</td><td>str</td></tr>
+  <tr><td>議会名</td><td>str</td></tr>
+  <tr><td>発言順</td><td>int</td></tr>
+  <tr><td>発言者</td><td>str</td></tr>
+  <tr><td>政党</td><td>str</td></tr>
+</table>
